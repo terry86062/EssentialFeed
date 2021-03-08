@@ -6,11 +6,15 @@
 	<dict>
 		<key>EssentialFeed.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 		<key>EssentialFeedTests.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
@@ -28,6 +32,11 @@
 			<true/>
 		</dict>
 		<key>DEC48AE125EA07C800B608DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DEDBB64F25F4C184005BD840</key>
 		<dict>
 			<key>primary</key>
 			<true/>
