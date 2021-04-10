@@ -67,6 +67,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DE30FD2B260F2D5400F01135 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DE08D85125F672E800B4E98F /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		DE1CF41F260592B4002D9BC7 /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
@@ -365,6 +378,7 @@
 				DEC48ABD25EA07C700B608DC /* Sources */,
 				DEC48ABE25EA07C700B608DC /* Frameworks */,
 				DEC48ABF25EA07C700B608DC /* Resources */,
+				DE30FD2B260F2D5400F01135 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
