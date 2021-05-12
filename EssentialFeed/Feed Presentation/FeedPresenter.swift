@@ -31,7 +31,7 @@ final class FeedPresenter {
             comment: "Title for the feed view")
     }
     
-    func didStartLoadingFeed() {
+    func didStartLoadingFeed() {        
         loadingView.display(FeedLoadingViewModel(isLoading: true))
     }
     
