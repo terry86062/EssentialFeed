@@ -272,7 +272,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE004B72265DEB3B00E17565 /* App */ = {
+		DE004B72265DEB3B00E17565 /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				DE8995992668BD3F00C7B80F /* Helpers */,
@@ -284,7 +284,7 @@
 				DE004B77265E215900E17565 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 				DE8995A22668D42A00C7B80F /* FeedImageDataLoaderCacheDecoratorTests.swift */,
 			);
-			path = App;
+			path = EssentialAppTests;
 			sourceTree = "<group>";
 		};
 		DE08D85025F672A200B4E98F /* Feed Cache */ = {
@@ -473,13 +473,9 @@
 		DEC48AC325EA07C700B608DC /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				DEC48AF725EA083000B608DC /* Application */,
-				DEE8727E262439DE00566400 /* Feed Presentation */,
-				DEE8726A2623FDDD00566400 /* Feed UI */,
-				DE20963A25FC60D00096F017 /* Feed Cache */,
-				DEC48B1325EA0B5700B608DC /* Feed Feature */,
-				DEC841C725EA1CB0000D8968 /* Feed API */,
-				DEC48B0225EA08BB00B608DC /* Supporting Files */,
+				DECFA1322676FDCB003B23D2 /* EssentialFeed */,
+				DECFA1332676FE05003B23D2 /* EssentialFeediOS */,
+				DECFA1312676FD41003B23D2 /* EssentialApp */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -492,7 +488,7 @@
 				DEDB0FFA25F4F8F3002E7B86 /* EssentialFeedAPIEndToEndTests */,
 				DE1CF46C2605EB87002D9BC7 /* EssentialFeedCacheIntegrationTests */,
 				DE529DCE26216CAC00A2A15A /* EssentialFeediOSTests */,
-				DE004B72265DEB3B00E17565 /* App */,
+				DE004B72265DEB3B00E17565 /* EssentialAppTests */,
 				DEC48ADD25EA07C800B608DC /* Info.plist */,
 			);
 			path = EssentialFeedTests;
@@ -551,6 +547,34 @@
 				DE4B7C2F25F3A3A10085EEE8 /* URLSessionHTTPClient.swift */,
 			);
 			path = "Feed API";
+			sourceTree = "<group>";
+		};
+		DECFA1312676FD41003B23D2 /* EssentialApp */ = {
+			isa = PBXGroup;
+			children = (
+				DEC48AF725EA083000B608DC /* Application */,
+				DEC48B0225EA08BB00B608DC /* Supporting Files */,
+			);
+			path = EssentialApp;
+			sourceTree = "<group>";
+		};
+		DECFA1322676FDCB003B23D2 /* EssentialFeed */ = {
+			isa = PBXGroup;
+			children = (
+				DEC48B1325EA0B5700B608DC /* Feed Feature */,
+				DEC841C725EA1CB0000D8968 /* Feed API */,
+				DE20963A25FC60D00096F017 /* Feed Cache */,
+				DEE8727E262439DE00566400 /* Feed Presentation */,
+			);
+			path = EssentialFeed;
+			sourceTree = "<group>";
+		};
+		DECFA1332676FE05003B23D2 /* EssentialFeediOS */ = {
+			isa = PBXGroup;
+			children = (
+				DEE8726A2623FDDD00566400 /* Feed UI */,
+			);
+			path = EssentialFeediOS;
 			sourceTree = "<group>";
 		};
 		DED916B525FC79810094DF8C /* Helpers */ = {
@@ -1010,7 +1034,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8QRU3Z535;
-				INFOPLIST_FILE = "EssentialFeed/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "EssentialFeed/EssentialApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1029,7 +1053,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8QRU3Z535;
-				INFOPLIST_FILE = "EssentialFeed/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "EssentialFeed/EssentialApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
